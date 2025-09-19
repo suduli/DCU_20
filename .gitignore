@@ -1,0 +1,54 @@
+# Dependencies
+website/node_modules/
+website/.pnp
+website/.pnp.js
+
+# Testing
+website/coverage/
+
+# Production
+website/build/
+
+# Misc
+website/.DS_Store
+website/.env.local
+website/.env.development.local
+website/.env.test.local
+website/.env.production.local
+
+# Logs
+website/npm-debug.log*
+website/yarn-debug.log*
+website/yarn-error.log*
+
+# Runtime data
+website/pids
+website/*.pid
+website/*.seed
+website/*.pid.lock
+
+# Optional npm cache directory
+website/.npm
+
+# Optional eslint cache
+website/.eslintcache
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+/tmp/
